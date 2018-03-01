@@ -11,3 +11,7 @@ The probability of H or T each toss is .5 or 50%. The tosses are independent so 
 <br>
 independent events <br>
 `P(plane crash \bigcap travel by plane) =  P(plane crash) * P(travel by plane) = (.01) * (.00005) = .000005` or `.0005%`<br>
+<br>
+4. *A data scientist wants to study the behavior of users on the company website. Each time a user clicks on a link on the website, there is a 5% chance that the user will be asked to complete a short survey about their behavior on the website. The data scientist uses the survey data to conclude that, on average, users spend 15 minutes surfing the company website before moving on to other things. What is wrong with this conclusion?* <br>
+<br>
+Where did the 15 minutes of surfing time come from? From the survey or from the users web stats, like google analytics? Has to be from the user analytics stats is he/she only using user data from the ones that fill out the survey? Likely users that fill out a survey are by default spending more time on the page to fill out a survey.  Is the time spend on the survey totaled with the time spent on the website or counted differently?
